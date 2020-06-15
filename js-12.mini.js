@@ -1,0 +1,1 @@
+document.querySelectorAll('.fans-action-btn').forEach(function(element){element.click()});setTimeout(function(){document.querySelectorAll('.follow-dialog-wrap').forEach(function(element){element.remove()})},1000)

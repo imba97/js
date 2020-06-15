@@ -1,0 +1,1 @@
+window.open(/https?:\/\/.*\/bfs\/article\/[a-z0-9]+\.(jpe?g|png|gif)/.exec(document.querySelector('.banner-img-holder').getAttribute('style'))[0])
