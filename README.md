@@ -16,7 +16,7 @@
 
 编号 | 程序 | 视频 | 压缩版 | 注释版 | 拖拽安装 | 服务端
 -|-|-|-|-|-|-
-\# 1 | 快速打开链接封面 | [链接](https://www.bilibili.com/video/BV1kK4y1x7Vw) | [链接](./code/js-1.min.js) | [链接](./code/js-1.js) | -- | --
+\# 1 | 快速打开视频封面 | [链接](https://www.bilibili.com/video/BV1kK4y1x7Vw) | [链接](./code/js-1.min.js) | [链接](./code/js-1.js) | -- | --
 \# 2 | 用JS抬走网页 | [链接](https://www.bilibili.com/video/BV1Mf4y1m7ff) | [链接](./code/js-2.min.js) | [链接](./code/js-2.js) | [链接](https://imba97.cn/archives/628) | --
 \# 3 | 快速打开头像 | [链接](https://www.bilibili.com/video/BV1j54y1Q7jq) | [链接](./code/js-3.min.js) | [链接](./code/js-3.js) | -- | --
 \# 4 | 快速打开文章头图 | [链接](https://www.bilibili.com/video/BV1wg4y1q7EX) | [链接](./code/js-4.min.js) | [链接](./code/js-4.js) | -- | --
@@ -37,16 +37,24 @@
 \# 19 | 点赞UP所有视频 | [链接](https://www.bilibili.com/video/BV1k5411W7wE) | [链接](./code/js-19.min.js) | [链接](./code/js-19.js) | -- | --
 \# 20 | 美冴铁拳 | [链接](https://www.bilibili.com/video/BV185411W7rt) | [链接](./code/js-20.min.js) | [链接](./code/js-20.js) |  -- | --
 \# 21 | 自动加载jQuery | [链接](https://www.bilibili.com/video/BV1R54y1B7R1) | [链接](./code/js-21.min.js) | [链接](./code/js-21.js) |  -- | --
-\# 22 | 一键朗读英文 | [链接](https://www.bilibili.com/videoBV1h5411W7ka/) | [链接](./code/js-22.min.js) | [链接](./code/js-22.js) |  -- | --
+\# 22 | 一键朗读英文 | [链接](https://www.bilibili.com/video/BV1h5411W7ka) | [链接](./code/js-22.min.js) | [链接](./code/js-22.js) |  -- | --
+\# 23 | 眼保健操现在开始 | [链接](https://www.bilibili.com/video/BV1cv411B7UE) | [链接](./code/js-23.min.js) | [链接](./code/js-23.js) |  -- | --
+\# 24 | 搜索推送视频 | [链接](https://www.bilibili.com/video/BV1f54y1B7Uf) | [链接](./code/js-24.min.js) | [链接](./code/js-24.js) |  -- | --
 
-# 参考资料
+# 参考及引用
 
 ## \# 13 视频一键截图
 
 [《js获取video任意时间的画面截图》](https://blog.csdn.net/bluelotos893/article/details/89191535)
+
 [《在新窗口中打开 base64 格式的图片》](https://blog.csdn.net/qq_34626003/article/details/88243824)
+
 [《js下载base64格式的图片》](https://www.cnblogs.com/MR-cui/p/9996548.html)
 
-## \# 21 
+## \# 21 自动加载jQuery
 
 [《js怎么动态加载js文件（JavaScript性能优化篇）》](https://www.cnblogs.com/telwanggs/p/11045773.html)
+
+## \# 23 眼保健操现在开始
+
+音乐：[中国大陆中小学 眼保健操](https://y.qq.com/n/yqq/song/002wC92N2plR8i.html)
