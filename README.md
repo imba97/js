@@ -40,6 +40,8 @@
 \# 22 | 一键朗读英文 | [链接](https://www.bilibili.com/video/BV1h5411W7ka) | [链接](./code/js-22.min.js) | [链接](./code/js-22.js) |  -- | --
 \# 23 | 眼保健操现在开始 | [链接](https://www.bilibili.com/video/BV1cv411B7UE) | [链接](./code/js-23.min.js) | [链接](./code/js-23.js) |  -- | --
 \# 24 | 搜索推送视频 | [链接](https://www.bilibili.com/video/BV1f54y1B7Uf) | [链接](./code/js-24.min.js) | [链接](./code/js-24.js) |  -- | --
+\# 25 | 视频数据分析 | [链接](https://www.bilibili.com/video/BV1wg4y1v7SC) | [链接](./code/js-25.min.js) | [链接](./code/js-25.js) |  -- | --
+\# 26 | Nuclear | -- | [链接](./code/js-nuclear.min.js) | [链接](./code/js-nuclear.js) |  -- | --
 
 # 参考及引用
 
