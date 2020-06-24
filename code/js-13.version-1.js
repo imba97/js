@@ -1,6 +1,4 @@
-var videoElement = document.querySelector(
-  '.bilibili-player-video video'
-);
+var videoElement = document.querySelector('video');
 var canvas = document.createElement('canvas');
 canvas.width = videoElement.videoWidth;
 canvas.height = videoElement.videoHeight;
