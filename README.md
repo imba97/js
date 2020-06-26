@@ -43,6 +43,9 @@
 \# 25 | 视频数据分析 | [B站](https://www.bilibili.com/video/BV1wg4y1v7SC)·[A岛](https://www.acfun.cn/v/ac16332206) | [链接](./code/js-25.min.js) | [链接](./code/js-25.js) |  -- | --
 \# 26 | Nuclear | [B站](https://www.bilibili.com/video/BV1wg4y1v7SC)·[A岛](https://www.acfun.cn/v/ac16353212) | [链接](./code/js-26.min.js) | [链接](./code/js-26.js) |  -- | --
 \# 27 | 打开活动页面视频 | [B站](https://www.bilibili.com/video/BV1s54y1B7ND)·[A岛](https://www.acfun.cn/v/ac16365162) | [链接](./code/js-27.min.js) | [链接](./code/js-27.js) |  -- | --
+\# 28 | 点赞抽奖 | [B站](https://www.bilibili.com/video/BV1aV411k7Rm) | [链接](./code/js-28.min.js) | [链接](./code/js-28.js) |  -- | --
+\# 29 | 复制直播间简介 | [B站](https://www.bilibili.com/video/BV1tt4y197Vd) | [链接](./code/js-29.min.js) | [链接](./code/js-29.js) |  -- | --
+
 
 # 相关教程
 

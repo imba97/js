@@ -273,7 +273,7 @@ if (typeof Nuclear === 'undefined') {
   };
 
   Nuclear.prototype.preload = function () {
-    // 用于forEach 的匿名函数，我知道 es6 箭头函数可以直接用 this，但我就是要用 es5，你打我呀
+    // 用于 forEach 的匿名函数，我知道 es6 箭头函数可以直接用 this，但我就是要用 es5，你打我呀
     var self = this;
 
     // 进度条 style
@@ -535,7 +535,7 @@ if (typeof Nuclear === 'undefined') {
     var bgTimer = setInterval(function () {
       bgOpacity += bgOpacityTransition;
       self.otherDom.select_target.style.opacity = bgOpacity;
-      if(bgOpacityTransition < 0.032) bgOpacityTransition += 0.0022; 
+      if (bgOpacityTransition < 0.032) bgOpacityTransition += 0.0022;
       if (bgOpacity > 1) {
         clearInterval(bgTimer);
       }
@@ -581,9 +581,10 @@ if (typeof Nuclear === 'undefined') {
     var plus =
       name === 'nuclear_down' ? self.baseSetup.select_target.y * 0.023 : 0;
     this.mediaDom[name].timer = setInterval(function () {
+      var pixel = currentVal + frame * (n + plus);
+
       if (frame % 5 === 0 && n < 20) n++;
-      self.mediaDom[name].style[position] =
-        currentVal + frame * (n + plus) + 'px';
+      self.mediaDom[name].style[position] = pixel + 'px';
 
       // 上升的核弹 发射时尾烟
       if (name === 'nuclear_up' && frame % 5 === 0) {
@@ -593,7 +594,7 @@ if (typeof Nuclear === 'undefined') {
         smoke_2_el.style.opacity = 1;
         smoke_2_el.src =
           'https://pic.downk.cc/item/5ef18d5714195aa594d2d4fa.gif';
-        
+
         // 添加到 发射时尾烟数组
         smoke_2_elements.push(smoke_2_el);
         // 添加到 body
@@ -605,7 +606,7 @@ if (typeof Nuclear === 'undefined') {
           50 +
           'px';
         // 设置 right 为 核弹 的 right
-        smoke_2_el.style.right = self.mediaDom.nuclear_up.style.right
+        smoke_2_el.style.right = self.mediaDom.nuclear_up.style.right;
         // 1 秒后删除
         setTimeout(function () {
           smoke_2_el.remove();
@@ -619,7 +620,7 @@ if (typeof Nuclear === 'undefined') {
       // 当前帧 + 1
       frame++;
       // 如果到达预设位置 清除计时器 执行 callback
-      if (currentVal + frame * (n + plus) >= to) {
+      if (pixel >= to) {
         clearInterval(self.mediaDom[name].timer);
         if (typeof callback === 'function') callback();
       }

@@ -140,3 +140,4 @@ if (document.querySelector('#koe_video_aaaaaaaaa') === null) {
     }
   }
 }
+void(0);
