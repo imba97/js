@@ -1,9 +1,5 @@
 // koe_clicked 类型 和 #koe_msg 元素是否存在，避免重复创建音乐
-if (
-  typeof koe_clicked === 'undefined' &&
-  document.querySelector('#koe_msg') === null
-) {
-  koe_clicked = true;
+if (document.querySelector('#koe_msg') === null) {
   // [if-0] 判断是否有 video 标签，没有则创建
   if (document.querySelector('#koe_video') === null) {
     // 创建左上角提示
@@ -30,14 +26,12 @@ if (
         'style',
         'filter: grayscale(100%); -moz-filter: grayscale(100%); -o-filter: grayscale(100%); -webkit-filter: grayscale(100%);'
       );
-      koe_clicked = false;
     });
     // 监听暂停事件
     koe_video.addEventListener('pause', function () {
       // 暂停后设置页面 style 取消灰色
       document.body.setAttribute('style', '');
       koe_played = false;
-      koe_clicked = false;
     });
     // 监听播放事件
     koe_video.addEventListener('play', function () {
@@ -47,7 +41,6 @@ if (
         'filter: grayscale(100%); -moz-filter: grayscale(100%); -o-filter: grayscale(100%); -webkit-filter: grayscale(100%);'
       );
       koe_played = true;
-      koe_clicked = false;
     });
     // 添加音乐资源
     var koe_source = document.createElement('source');

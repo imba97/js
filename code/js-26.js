@@ -27,6 +27,7 @@ if (typeof Nuclear === 'undefined') {
   function Nuclear() {
     // setup
     this.baseSetup = {
+      is_ready: false,
       is_launched: false,
       select_target: {
         x: 0,
@@ -49,6 +50,10 @@ if (typeof Nuclear === 'undefined') {
         boom: 1700,
         end: 1000,
       },
+      nuclear_style: document.createElement('style'),
+      progress_style: document.createElement('style'),
+      select_target_mouseover: function() {},
+      select_target_mouseout: function() {},
     };
     // 判断媒体是否加载完成
     this.mediaIsLoaded = {};
@@ -168,8 +173,7 @@ if (typeof Nuclear === 'undefined') {
    */
   Nuclear.prototype.init = function () {
     // 添加 style
-    var nuclear_style = document.createElement('style');
-    nuclear_style.innerText = `
+    this.baseSetup.nuclear_style.innerText = `
 
       .nuclear {
         display: none;
@@ -258,7 +262,7 @@ if (typeof Nuclear === 'undefined') {
       }
 
     `;
-    document.head.appendChild(nuclear_style);
+    document.head.appendChild(this.baseSetup.nuclear_style);
 
     // 初始化 其他 dom
     var self = this;
@@ -275,9 +279,6 @@ if (typeof Nuclear === 'undefined') {
   Nuclear.prototype.preload = function () {
     // 用于 forEach 的匿名函数，我知道 es6 箭头函数可以直接用 this，但我就是要用 es5，你打我呀
     var self = this;
-
-    // 进度条 style
-    var progress = document.createElement('style');
 
     // 循环 mediaInfo
     this.mediaInfo.forEach(function (item, index) {
@@ -330,7 +331,7 @@ if (typeof Nuclear === 'undefined') {
 
       // 进度条 根据媒体个数自动设置百分比
       var percent = parseInt((100 / self.mediaInfo.length) * (index + 1));
-      progress.innerText +=
+      self.baseSetup.progress_style.innerText +=
         '.nuclear_progress[data-preload="' +
         (index + 1) +
         '"]::before { width: ' +
@@ -339,7 +340,7 @@ if (typeof Nuclear === 'undefined') {
     });
 
     // 进度条 style 添加至 head
-    document.head.appendChild(progress);
+    document.head.appendChild(self.baseSetup.progress_style);
   };
 
   /**
@@ -386,7 +387,9 @@ if (typeof Nuclear === 'undefined') {
 
     // 发射井展开后再等待 nuclear_ready 毫秒，执行 nuclearMissileReady
     setTimeout(function () {
+      if(self.baseSetup.is_ready) return;
       // 准备就绪
+      self.baseSetup.is_ready = true;
       self.nuclearMissileReady();
     }, self.baseSetup.timeout.open_silo + self.baseSetup.timeout.nuclear_ready);
   };
@@ -402,6 +405,9 @@ if (typeof Nuclear === 'undefined') {
     this.otherDom.select_target.style.display = 'block';
     // 显示鼠标指针动图
     this.mediaDom.mouse.style.display = 'block';
+    // 默认位置在界面外 鼠标移动才会更新位置
+    this.mediaDom.mouse.style.top = -this.mediaDom.mouse.clientHeight + 'px';
+    this.mediaDom.mouse.style.left = -this.mediaDom.mouse.clientWidth + 'px';
     // 点击发射
     this.otherDom.select_target.addEventListener('click', function (e) {
       // 判断是否已发射
@@ -450,12 +456,14 @@ if (typeof Nuclear === 'undefined') {
         self.mediaDom.mouse.style.left =
           e.pageX - self.mediaDom.mouse.clientWidth / 2 + 'px';
     });
-    this.otherDom.select_target.addEventListener('mouseover', function () {
+    this.baseSetup.select_target_mouseover = function () {
       self.mediaDom.mouse.style.display = 'block';
-    });
-    this.otherDom.select_target.addEventListener('mouseout', function () {
+    };
+    this.baseSetup.select_target_mouseout = function () {
       self.mediaDom.mouse.style.display = 'none';
-    });
+    }
+    this.otherDom.select_target.addEventListener('mouseover', this.baseSetup.select_target_mouseover);
+    this.otherDom.select_target.addEventListener('mouseout', this.baseSetup.select_target_mouseout);
   };
 
   /**
@@ -465,6 +473,10 @@ if (typeof Nuclear === 'undefined') {
   Nuclear.prototype.nuclearMissileLaunched = function (position) {
     var self = this;
     this.mediaDom.biu.play();
+
+    // 删除 mouseover mouseout 监听
+    this.otherDom.select_target.removeEventListener('mouseover', this.baseSetup.select_target_mouseover);
+    this.otherDom.select_target.removeEventListener('mouseout', this.baseSetup.select_target_mouseout);
 
     // 关井
     setTimeout(function () {
@@ -644,6 +656,10 @@ if (typeof Nuclear === 'undefined') {
       for (element in self.otherDom) {
         self.otherDom[element].remove();
       }
+      // 删除 style
+      document.head.removeChild(self.baseSetup.nuclear_style);
+      // 删除 进度条 style
+      document.head.removeChild(self.baseSetup.progress_style);
       // 把网页改成源码
       document.documentElement.innerText = document.documentElement.innerHTML;
     }, this.baseSetup.timeout.end);
