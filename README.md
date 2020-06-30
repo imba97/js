@@ -45,6 +45,10 @@
 \# 27 | 打开活动页面视频 | [B站](https://www.bilibili.com/video/BV1s54y1B7ND)·[A岛](https://www.acfun.cn/v/ac16365162) | [链接](./code/js-27.min.js) | [链接](./code/js-27.js) |  -- | --
 \# 28 | 点赞抽奖 | [B站](https://www.bilibili.com/video/BV1aV411k7Rm) | [链接](./code/js-28.min.js) | [链接](./code/js-28.js) |  -- | --
 \# 29 | 复制直播间简介 | [B站](https://www.bilibili.com/video/BV1tt4y197Vd) | [链接](./code/js-29.min.js) | [链接](./code/js-29.js) |  -- | --
+\# 30 | 类① | [B站](https://www.bilibili.com/video/BV1rp4y1U79B)·[A岛](https://www.acfun.cn/v/ac16469417) | [链接](./code/js-30.min.js) | [链接](./code/js-30.js) |  -- | --
+\# 31 | 类② | [B站](https://www.bilibili.com/video/BV1bk4y1q72r)·[A岛](https://www.acfun.cn/v/ac16484358) | [链接](./code/js-31.min.js) | [链接](./code/js-31.js) |  -- | --
+\# 32 | 鼠标的套路① | [B站](https://www.bilibili.com/video/BV1tf4y117jR)·[A岛](https://www.acfun.cn/v/ac16497811) | -- | -- |  -- | --
+\# 33 | 鼠标的套路② | [B站](https://www.bilibili.com/video/BV1Yv411B7nG)·[A岛](https://www.acfun.cn/v/ac16519375) | -- | -- |  -- | --
 
 
 # 相关教程
