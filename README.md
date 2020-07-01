@@ -25,6 +25,9 @@
 \# 7 | BV转AV | [B站](https://www.bilibili.com/video/BV1sv411677s) | [链接](./code/js-7.min.js) | [链接](./code/js-7.js) | -- | --
 \# 8 | 简化淘宝天猫链接 | [B站](https://www.bilibili.com/video/BV1qg4y1i7DN)·[A岛](https://www.acfun.cn/v/ac16031054) | [链接](./code/js-8.min.js) | [链接](./code/js-8.js) | -- | --
 \# 9 | 连点器 | [B站](https://www.bilibili.com/video/BV1Rg4y1i7Bb)·[A岛](https://www.acfun.cn/v/ac16039378) | [链接](./code/js-9.min.js) | [链接](./code/js-9.js) | -- | --
+
+编号 | 程序 | 视频 | 压缩版 | 注释版 | 拖拽安装 | 服务端
+-|-|-|-|-|-|-
 \# 10 | 一键切换用户等级 | [B站](https://www.bilibili.com/video/BV14z411i7KJ)·[A岛](https://www.acfun.cn/v/ac16052004) | [链接](./code/js-10.min.js) | [链接](./code/js-10.js) | -- | --
 \# 11 | 搜索评论 | [B站](https://www.bilibili.com/video/BV1kK4y1x7Q4) | [链接](./code/js-11.min.js) | [链接](./code/js-11.js) | -- | --
 \# 12 | “互粉awa” | [B站](https://www.bilibili.com/video/BV1oi4y1s7Ut)·[A岛](https://www.acfun.cn/v/ac16088890) | [链接](./code/js-12.min.js) | [链接](./code/js-12.js) | -- | --
@@ -35,20 +38,28 @@
 \# 17 | 用网络请求给视频点赞 | [B站](https://www.bilibili.com/video/BV11z4y1Q7uw)·[A岛](https://www.acfun.cn/v/ac16181286) | [链接](./code/js-17.min.js) | [链接](./code/js-17.js) | -- | --
 \# 18 | 点赞一整页 | [B站](https://www.bilibili.com/video/BV1k5411W7wE) | [链接](./code/js-18.min.js) | [链接](./code/js-18.js) | -- | --
 \# 19 | 点赞UP所有视频 | [B站](https://www.bilibili.com/video/BV1k5411W7wE)·[A岛](https://www.acfun.cn/v/ac16222630) | [链接](./code/js-19.min.js) | [链接](./code/js-19.js) | -- | --
+
+编号 | 程序 | 视频 | 压缩版 | 注释版 | 拖拽安装 | 服务端
+-|-|-|-|-|-|-
 \# 20 | 美冴铁拳 | [B站](https://www.bilibili.com/video/BV185411W7rt)·[A岛](https://www.acfun.cn/v/ac16237933) | [链接](./code/js-20.min.js) | [链接](./code/js-20.js) |  -- | --
 \# 21 | 自动加载jQuery | [B站](https://www.bilibili.com/video/BV1R54y1B7R1)·[A岛](https://www.acfun.cn/v/ac16265093) | [链接](./code/js-21.min.js) | [链接](./code/js-21.js) |  -- | --
 \# 22 | 一键朗读英文 | [B站](https://www.bilibili.com/video/BV1h5411W7ka)·[A岛](https://www.acfun.cn/v/ac16277144) | [链接](./code/js-22.min.js) | [链接](./code/js-22.js) |  -- | --
 \# 23 | 眼保健操现在开始 | [B站](https://www.bilibili.com/video/BV1cv411B7UE)·[A岛](https://www.acfun.cn/v/ac16297118) | [链接](./code/js-23.min.js) | [链接](./code/js-23.js) |  -- | --
 \# 24 | 搜索推送视频 | [B站](https://www.bilibili.com/video/BV1f54y1B7Uf)·[A岛](https://www.acfun.cn/v/ac16313528) | [链接](./code/js-24.min.js) | [链接](./code/js-24.js) |  -- | --
 \# 25 | 视频数据分析 | [B站](https://www.bilibili.com/video/BV1wg4y1v7SC)·[A岛](https://www.acfun.cn/v/ac16332206) | [链接](./code/js-25.min.js) | [链接](./code/js-25.js) |  -- | --
-\# 26 | Nuclear | [B站](https://www.bilibili.com/video/BV1wg4y1v7SC)·[A岛](https://www.acfun.cn/v/ac16353212) | [链接](./code/js-26.min.js) | [链接](./code/js-26.js) |  -- | --
+\# 26 | **Nuclear** | [B站](https://www.bilibili.com/video/BV1wg4y1v7SC)·[A岛](https://www.acfun.cn/v/ac16353212) | [Chrome、FireFox](./code/js-26.min.js)·[其他浏览器](./code/js-26.360.js) | [链接](./code/js-26.js) |  -- | --
 \# 27 | 打开活动页面视频 | [B站](https://www.bilibili.com/video/BV1s54y1B7ND)·[A岛](https://www.acfun.cn/v/ac16365162) | [链接](./code/js-27.min.js) | [链接](./code/js-27.js) |  -- | --
 \# 28 | 点赞抽奖 | [B站](https://www.bilibili.com/video/BV1aV411k7Rm) | [链接](./code/js-28.min.js) | [链接](./code/js-28.js) |  -- | --
 \# 29 | 复制直播间简介 | [B站](https://www.bilibili.com/video/BV1tt4y197Vd) | [链接](./code/js-29.min.js) | [链接](./code/js-29.js) |  -- | --
+
+编号 | 程序 | 视频 | 压缩版 | 注释版 | 拖拽安装 | 服务端
+-|-|-|-|-|-|-
 \# 30 | 类① | [B站](https://www.bilibili.com/video/BV1rp4y1U79B)·[A岛](https://www.acfun.cn/v/ac16469417) | [链接](./code/js-30.min.js) | [链接](./code/js-30.js) |  -- | --
 \# 31 | 类② | [B站](https://www.bilibili.com/video/BV1bk4y1q72r)·[A岛](https://www.acfun.cn/v/ac16484358) | [链接](./code/js-31.min.js) | [链接](./code/js-31.js) |  -- | --
 \# 32 | 鼠标的套路① | [B站](https://www.bilibili.com/video/BV1tf4y117jR)·[A岛](https://www.acfun.cn/v/ac16497811) | -- | -- |  -- | --
 \# 33 | 鼠标的套路② | [B站](https://www.bilibili.com/video/BV1Yv411B7nG)·[A岛](https://www.acfun.cn/v/ac16519375) | -- | -- |  -- | --
+\# 34 | 一键生成短网址 | [B站](https://www.bilibili.com/video/BV1it4y197sf)·[A岛](https://www.acfun.cn/v/ac16547419) | [链接](./code/js-34.min.js) | [链接](./code/js-34.js) |  -- | [PHP](./code/js-34.server.php)
+\# 35 | 以图搜番 | -- | [链接](./code/js-35.min.js) | [链接](./code/js-35.js) |  -- | --
 
 
 # 相关教程
@@ -72,6 +83,12 @@
 ## \# 26 Nuclear
 
 整理了一篇文章：[《红色警戒素材转图片》](https://imba97.cn/archives/651)
+
+## \# 35 以图搜番
+
+API：[https://trace.moe](https://trace.moe)
+
+文档：[https://soruly.github.io/trace.moe/#/](https://soruly.github.io/trace.moe/#/)
 
 # 程序版本更新
 
