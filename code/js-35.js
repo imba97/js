@@ -45,6 +45,8 @@ if (typeof koe_35_p === 'undefined') {
         if (koe_35_xhr.readyState === 4 && koe_35_xhr.status === 200) {
           var json = JSON.parse(koe_35_xhr.responseText);
           if (json.docs.length > 0) {
+            var at_m = parseInt(json.docs[0].at / 60);
+            var at_s = parseInt(json.docs[0].at % (60));
             koe_35_p.innerText = '成功！正在加载视频';
             var src =
               'https://trace.moe/preview.php?anilist_id=' +
@@ -71,7 +73,7 @@ if (typeof koe_35_p === 'undefined') {
             videoElement.addEventListener('canplaythrough', function () {
               // 播放视频后 才能再次选择图片
               koe_35_select = true;
-              koe_35_p.style.display = 'none';
+              koe_35_p.innerText = json.docs[0].title + '，第' + json.docs[0].episode + '集，时间：' + at_m + ':' + at_s;
             });
             document.body.appendChild(videoElement);
           } else {
