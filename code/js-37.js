@@ -223,6 +223,7 @@ if (typeof Chronosphere === 'undefined') {
         position: fixed;
         z-index: 9999999;
         display: none;
+        overflow: hidden;
       }
 
       .chronosphere_base {
@@ -283,15 +284,19 @@ if (typeof Chronosphere === 'undefined') {
         left: 141px;
       }
 
-      .chronosphere_div {
+      .chronosphere_div,
+      .chronosphere_target_div {
         position: absolute;
+        top: 0;
+        left: 0;
         opacity: 0;
+      }
+
+      .chronosphere_div {
         background-color: #000;
         z-index: 9999999;
       }
       .chronosphere_target_div {
-        position: absolute;
-        opacity: 0;
         overflow: hidden;
         z-index: 9999990;
       }
@@ -471,11 +476,6 @@ if (typeof Chronosphere === 'undefined') {
 
     this.mediaDom.ready.play();
 
-    // 显示鼠标指针动图
-    this.mediaDom.mouse.style.display = 'block';
-    // 默认位置在界面外 鼠标移动才会更新位置
-    this.mediaDom.mouse.style.top = '-100px';
-    this.mediaDom.mouse.style.left = '-100px';
     this.otherDom.select_target.style.display = 'block';
 
     this.baseSetup.select_target_mouseover = function () {
@@ -497,7 +497,7 @@ if (typeof Chronosphere === 'undefined') {
     this.baseSetup.iframe.src = window.location.href;
     this.otherDom.target_div.appendChild(this.baseSetup.iframe);
     document.body.appendChild(this.otherDom.target_div);
-    this.baseSetup.iframe.setAttribute('style', 'border: none; display: none;');
+    this.baseSetup.iframe.setAttribute('style', 'border: none;');
     this.baseSetup.iframe.style.width =
       document.documentElement.clientWidth + 'px';
     this.baseSetup.iframe.style.height =
