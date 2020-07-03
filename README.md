@@ -59,8 +59,9 @@
 \# 32 | 鼠标的套路① | [B站](https://www.bilibili.com/video/BV1tf4y117jR)·[A岛](https://www.acfun.cn/v/ac16497811) | -- | [链接](./code/js-32.js) |  -- | --
 \# 33 | 鼠标的套路② | [B站](https://www.bilibili.com/video/BV1Yv411B7nG)·[A岛](https://www.acfun.cn/v/ac16519375) | -- | [链接](./code/js-33.js) |  -- | --
 \# 34 | 一键生成短网址 | [B站](https://www.bilibili.com/video/BV1it4y197sf)·[A岛](https://www.acfun.cn/v/ac16547419) | [链接](./code/js-34.min.js) | [链接](./code/js-34.js) |  -- | [PHP](./code/js-34.server.php)
-\# 35 | 以图搜番 | -- | [链接](./code/js-35.min.js) | [链接](./code/js-35.js) |  -- | --
-\# 36 | 查询UP主认证资格 | -- | [链接](./code/js-36.min.js) | [链接](./code/js-36.js) |  -- | --
+\# 35 | 以图搜番 | [B站](https://www.bilibili.com/video/BV1Yg4y1v7ZG)·[A岛](https://www.acfun.cn/v/ac16559225) | [链接](./code/js-35.min.js) | [链接](./code/js-35.js) |  -- | --
+\# 36 | 查询UP主认证资格 | [B站](https://www.bilibili.com/video/BV1wC4y1Y7D9) | [链接](./code/js-36.min.js) | [链接](./code/js-36.js) |  -- | --
+\# 37 | Chronosphere | -- | [链接](./code/js-37.min.js) | [链接](./code/js-37.js) |  -- | --
 
 
 # 相关教程
