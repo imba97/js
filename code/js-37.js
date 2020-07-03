@@ -43,11 +43,9 @@ if (typeof Chronosphere === 'undefined') {
         x: 0,
         y: 0,
       },
-      position: {
-        top: 50,
-        left: 50,
-        bottom: 0,
-        right: -100,
+      scroll: {
+        top: 0,
+        left: 0,
       },
       size: {
         width: 500,
@@ -61,6 +59,7 @@ if (typeof Chronosphere === 'undefined') {
       },
       chronosphere_style: document.createElement('style'),
       progress_style: document.createElement('style'),
+      iframe: document.createElement('iframe'),
       select_target_mouseover: function () {},
       select_target_mouseout: function () {},
     };
@@ -167,7 +166,7 @@ if (typeof Chronosphere === 'undefined') {
       {
         type: 'p',
         name: 'progress_text',
-        innerText: '核弹祈祷nia 0%',
+        innerText: '超时空传输中 0%',
       },
       {
         type: 'div',
@@ -255,7 +254,7 @@ if (typeof Chronosphere === 'undefined') {
       .chronosphere_effe_2_1,
       .chronosphere_effe_2_2 {
         position: absolute;
-        z-index: 9999999;
+        z-index: 9999990;
       }
 
       .chronosphere_ass♂,
@@ -439,7 +438,7 @@ if (typeof Chronosphere === 'undefined') {
     // 计算百分比
     var percent = parseInt((100 / this.mediaInfo.length) * n);
     // 设置 文字的百分比
-    this.otherDom.progress_text.innerText = '核弹祈祷nia ' + percent + '%';
+    this.otherDom.progress_text.innerText = '超时空传输中 ' + percent + '%';
     // chronosphere Missile Ready
     if (n === this.mediaInfo.length) {
       this.chronosphereReadyBefore();
@@ -494,6 +493,18 @@ if (typeof Chronosphere === 'undefined') {
       this.baseSetup.select_target_mouseout
     );
 
+    this.baseSetup.iframe = document.createElement('iframe');
+    this.baseSetup.iframe.src = window.location.href;
+    this.otherDom.target_div.appendChild(this.baseSetup.iframe);
+    document.body.appendChild(this.otherDom.target_div);
+    this.baseSetup.iframe.setAttribute('style', 'border: none; display: none;');
+    this.baseSetup.iframe.style.width =
+      document.documentElement.clientWidth + 'px';
+    this.baseSetup.iframe.style.height =
+      document.documentElement.clientHeight + 'px';
+    this.otherDom.target_div.style.width = this.baseSetup.size.width + 'px';
+    this.otherDom.target_div.style.height = this.baseSetup.size.height + 'px';
+
     // 监听 选取目标 div 的鼠标移动事件
     this.otherDom.select_target.addEventListener('mousemove', function (e) {
       // 获取滚动条高度
@@ -527,9 +538,14 @@ if (typeof Chronosphere === 'undefined') {
         self.baseSetup.is_activated = true;
         return;
       }
+
+      // 点第一次的时候
       self.baseSetup.is_select_target = true;
       self.mediaDom.loop_sound.pause();
       self.mediaDom.use_ready.play();
+
+      self.baseSetup.scroll.top = document.documentElement.scrollTop;
+      self.baseSetup.scroll.left = document.documentElement.scrollLeft;
 
       self.create_effe_1(position);
     });
@@ -608,24 +624,19 @@ if (typeof Chronosphere === 'undefined') {
     this.otherDom.div.style.left =
       this.baseSetup.select_target.x - this.baseSetup.size.height / 2 + 'px';
 
-    var iframe = document.createElement('iframe');
-    iframe.src = window.location.href;
-    this.otherDom.target_div.appendChild(iframe);
-    document.body.appendChild(this.otherDom.target_div);
-    iframe.setAttribute('id', 'chronosphere_iframe');
-    iframe.style.width = document.documentElement.clientWidth + 'px';
-    iframe.style.height = document.documentElement.clientHeight + 'px';
-    iframe.style.border = 'none';
+    this.baseSetup.iframe.style.display = 'block';
+    this.baseSetup.iframe.contentDocument.documentElement.scrollTop =
+      self.baseSetup.scroll.top - this.baseSetup.size.height / 2;
+    this.baseSetup.iframe.contentDocument.documentElement.scrollLeft =
+      self.baseSetup.scroll.left;
     this.otherDom.target_div.style.top =
       position.y - this.baseSetup.size.width / 2 + 'px';
     this.otherDom.target_div.style.left =
       position.x - this.baseSetup.size.height / 2 + 'px';
-    this.otherDom.target_div.style.width = this.baseSetup.size.width + 'px';
-    this.otherDom.target_div.style.height = this.baseSetup.size.height + 'px';
     this.otherDom.target_div.scrollTop =
-      this.baseSetup.select_target.y - this.baseSetup.size.width / 2;
+      this.baseSetup.select_target.y - this.baseSetup.size.height / 2;
     this.otherDom.target_div.scrollLeft =
-      this.baseSetup.select_target.x - this.baseSetup.size.height / 2;
+      this.baseSetup.select_target.x - this.baseSetup.size.width / 2;
 
     var opacity = 0.0;
     var opacity_timer = setInterval(function () {
@@ -640,26 +651,27 @@ if (typeof Chronosphere === 'undefined') {
     }, 50);
   };
 
-  /** plan B 👇 */
-
-  Chronosphere.prototype.sendRequest = function () {
-    this.xhr.open('GET', this.requestUrl, false);
-    this.xhr.send();
-  };
-
-  Chronosphere.prototype.createIframe = function (url) {
-    var chronosphere_style = document.createElement('style');
-    chronosphere_style.innerText =
-      ' *:not(.chronosphere_iframe) { overflow: hidden; } .chronosphere_iframe { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #FFF; z-index: 999999999; }  ';
-    document.head.appendChild(chronosphere_style);
-    var chronosphere_iframe = document.createElement('iframe');
-    chronosphere_iframe.src = url;
-    chronosphere_iframe.setAttribute('class', 'chronosphere_iframe');
-    document.body.appendChild(chronosphere_iframe);
-  };
-
-  /** plan B 👆 */
 }
 
 var chronosphere = new Chronosphere();
 chronosphere.init();
+
+/** plan B 👇 */
+
+Chronosphere.prototype.sendRequest = function () {
+  this.xhr.open('GET', this.requestUrl, false);
+  this.xhr.send();
+};
+
+Chronosphere.prototype.createIframe = function (url) {
+  var chronosphere_style = document.createElement('style');
+  chronosphere_style.innerText =
+    ' *:not(.chronosphere_iframe) { overflow: hidden; } .chronosphere_iframe { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #FFF; z-index: 999999999; }  ';
+  document.head.appendChild(chronosphere_style);
+  var chronosphere_iframe = document.createElement('iframe');
+  chronosphere_iframe.src = url;
+  chronosphere_iframe.setAttribute('class', 'chronosphere_iframe');
+  document.body.appendChild(chronosphere_iframe);
+};
+
+/** plan B 👆 */
