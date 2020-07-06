@@ -62,6 +62,8 @@
 \# 35 | 以图搜番 | [B站](https://www.bilibili.com/video/BV1Yg4y1v7ZG)·[A岛](https://www.acfun.cn/v/ac16559225) | [链接](./code/js-35.min.js) | [链接](./code/js-35.js) |  -- | --
 \# 36 | 查询UP主认证资格 | [B站](https://www.bilibili.com/video/BV1wC4y1Y7D9) | [链接](./code/js-36.min.js) | [链接](./code/js-36.js) |  -- | --
 \# 37 | Chronosphere | -- | [链接](./code/js-37.min.js) | [链接](./code/js-37.js) |  -- | --
+\# 38 | 汇率转换 | [B站](https://www.bilibili.com/video/BV1Ka4y1e7st)·[A岛](https://www.acfun.cn/v/ac16671099) | -- | [链接](./code/js-38.js) |  -- | --
+\# 39 | 快退快进 | [B站](https://www.bilibili.com/video/BV1vf4y1R7cx)·[A岛](https://www.acfun.cn/v/ac16682425) | [快退](./code/js-39-backward.min.js)·[快进](./code/js-39-forward.min.js) | [链接](./code/js-39.js) |  -- | --
 
 
 # 相关教程
