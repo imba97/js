@@ -1,0 +1,1 @@
+if(window.location.host !== 'web.archive.org') window.open('https://web.archive.org/save/' + window.location.href);

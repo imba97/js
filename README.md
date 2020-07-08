@@ -65,6 +65,11 @@
 \# 38 | 汇率转换 | [B站](https://www.bilibili.com/video/BV1Ka4y1e7st)·[A岛](https://www.acfun.cn/v/ac16671099) | -- | [链接](./code/js-38.js) |  -- | --
 \# 39 | 快退快进 | [B站](https://www.bilibili.com/video/BV1vf4y1R7cx)·[A岛](https://www.acfun.cn/v/ac16682425) | [快退](./code/js-39-backward.min.js)·[快进](./code/js-39-forward.min.js) | [链接](./code/js-39.js) |  -- | --
 
+编号 | 程序 | 视频 | 压缩版 | 注释版 | 拖拽安装 | 服务端
+-|-|-|-|-|-|-
+\# 40 | 网页快照 | [B站](https://www.bilibili.com/video/BV1of4y197Eg)·[A岛](https://www.acfun.cn/v/ac16700750) | [链接](./code/js-40.min.js) | [链接](./code/js-40.js) |  -- | --
+\# 41 | 频道排序 | [B站](https://www.bilibili.com/video/BV1W54y1q7mi) | [链接](./code/js-41.min.js) | [链接](./code/js-41.js) |  -- | --
+
 
 # 相关教程
 
