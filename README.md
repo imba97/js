@@ -61,7 +61,7 @@
 \# 34 | 一键生成短网址 | [B站](https://www.bilibili.com/video/BV1it4y197sf)·[A岛](https://www.acfun.cn/v/ac16547419) | [链接](./code/js-34.min.js) | [链接](./code/js-34.js) |  -- | [PHP](./code/js-34.server.php)
 \# 35 | 以图搜番 | [B站](https://www.bilibili.com/video/BV1Yg4y1v7ZG)·[A岛](https://www.acfun.cn/v/ac16559225) | [链接](./code/js-35.min.js) | [链接](./code/js-35.js) |  -- | --
 \# 36 | 查询UP主认证资格 | [B站](https://www.bilibili.com/video/BV1wC4y1Y7D9) | [链接](./code/js-36.min.js) | [链接](./code/js-36.js) |  -- | --
-\# 37 | Chronosphere | -- | [链接](./code/js-37.min.js) | [链接](./code/js-37.js) |  -- | --
+\# 37 | **Chronosphere** | -- | [链接](./code/js-37.min.js) | [链接](./code/js-37.js) |  -- | --
 \# 38 | 汇率转换 | [B站](https://www.bilibili.com/video/BV1Ka4y1e7st)·[A岛](https://www.acfun.cn/v/ac16671099) | -- | [链接](./code/js-38.js) |  -- | --
 \# 39 | 快退快进 | [B站](https://www.bilibili.com/video/BV1vf4y1R7cx)·[A岛](https://www.acfun.cn/v/ac16682425) | [快退](./code/js-39-backward.min.js)·[快进](./code/js-39-forward.min.js) | [链接](./code/js-39.js) |  -- | --
 
@@ -69,6 +69,7 @@
 -|-|-|-|-|-|-
 \# 40 | 网页快照 | [B站](https://www.bilibili.com/video/BV1of4y197Eg)·[A岛](https://www.acfun.cn/v/ac16700750) | [链接](./code/js-40.min.js) | [链接](./code/js-40.js) |  -- | --
 \# 41 | 频道排序 | [B站](https://www.bilibili.com/video/BV1W54y1q7mi) | [链接](./code/js-41.min.js) | [链接](./code/js-41.js) |  -- | --
+\# 42 | **生成拖拽安装** | [B站](https://www.bilibili.com/video/BV1Z5411Y7ko)·[A岛](https://www.acfun.cn/v/ac16729011) | [链接](./code/js-42.min.js) | [链接](./code/js-42.js) |  -- | --
 
 
 # 相关教程
