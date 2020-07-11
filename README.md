@@ -70,6 +70,9 @@
 \# 40 | 网页快照 | [B站](https://www.bilibili.com/video/BV1of4y197Eg)·[A岛](https://www.acfun.cn/v/ac16700750) | [链接](./code/js-40.min.js) | [链接](./code/js-40.js) |  -- | --
 \# 41 | 频道排序 | [B站](https://www.bilibili.com/video/BV1W54y1q7mi) | [链接](./code/js-41.min.js) | [链接](./code/js-41.js) |  -- | --
 \# 42 | **生成拖拽安装** | [B站](https://www.bilibili.com/video/BV1Z5411Y7ko)·[A岛](https://www.acfun.cn/v/ac16729011) | [链接](./code/js-42.min.js) | [链接](./code/js-42.js) |  -- | --
+\# ~~43~~ | ~~找回B站失效视频~~（视频未过审） | -- | [链接](./code/js-43.version-1.min.js) | [链接](./code/js-43.version-1.js) |  -- | --
+\# 43 | 视频数据保存 | [B站](https://www.bilibili.com/video/BV1Z5411Y7ko)·[A岛](https://www.acfun.cn/v/ac16729011) | [链接](./code/js-43.min.js) | [链接](./code/js-43.js) |  -- | --
+\# 44 | 先輩アラーム | [B站](https://www.bilibili.com/video/BV1BK4y1s7Qn)·[A岛](https://www.acfun.cn/v/ac16759283) | [链接](./code/js-44.min.js) | [链接](./code/js-44.js) |  -- | --
 
 
 # 相关教程
@@ -99,6 +102,10 @@
 API：[https://trace.moe](https://trace.moe)
 
 文档：[https://soruly.github.io/trace.moe/#/](https://soruly.github.io/trace.moe/#/)
+
+## \# 43 UP视频数据保存
+
+[《原生JS使用Blob导出csv文件》](https://www.cnblogs.com/so-letitgo/p/11905899.html)
 
 # 程序版本更新
 
