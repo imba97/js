@@ -16,7 +16,7 @@ if (typeof koe_45_style === 'undefined') {
         'GET',
         'https://buyertrade.taobao.com/trade/json/transit_step.do?bizOrderId=' +
           koe_45_trade_id,
-        'true'
+        true
       );
       koe_45_xhr.send();
       koe_45_xhr.onreadystatechange = function () {
@@ -39,14 +39,14 @@ if (typeof koe_45_style === 'undefined') {
       };
     });
 } else {
-  if(koe_45_is_show) {
+  if (koe_45_is_show) {
     koe_45_is_show = false;
-    document.querySelectorAll('.koe_45_ul').forEach(function(element) {
+    document.querySelectorAll('.koe_45_ul').forEach(function (element) {
       element.style.display = 'none';
     });
   } else {
     koe_45_is_show = true;
-    document.querySelectorAll('.koe_45_ul').forEach(function(element) {
+    document.querySelectorAll('.koe_45_ul').forEach(function (element) {
       element.style.display = 'block';
     });
   }

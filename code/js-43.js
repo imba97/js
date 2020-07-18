@@ -12,7 +12,7 @@ var koe_43_type_name = {
 // 日期格式化
 if (typeof formatDate === 'undefined') {
   function formatDate(date) {
-    var date = new Date(date*1000);
+    var date = new Date(date * 1000);
     var YY = date.getFullYear() + '-';
     var MM =
       (date.getMonth() + 1 < 10
@@ -51,7 +51,7 @@ function koe_43_getData() {
     'GET',
     'https://member.bilibili.com/x/web/data/pandect?type=' +
       koe_43_keys[koe_43_current_index],
-    'true'
+    true
   );
   koe_43_xhr.send();
   koe_43_xhr.onreadystatechange = function () {
@@ -70,15 +70,14 @@ function koe_43_getData() {
 
       // 所有数据请求完成
       if (koe_43_keys.length - 1 === koe_43_current_index) {
-
-        koe_43_date.forEach(function(item, index) {
+        koe_43_date.forEach(function (item, index) {
           var data_everyday = new Array();
-          koe_43_keys.forEach(function(type_index) {
+          koe_43_keys.forEach(function (type_index) {
             data_everyday.push(koe_43_xhr_data[type_index][index]);
           });
           koe_43_data.push(item + ',' + data_everyday.join(','));
         });
-        
+
         // 创建Blob对象 传入一个合适的MIME类型
         const blob = new Blob(['\ufeff' + koe_43_data.join('\n')], {
           type: 'text/csv,charset=UTF-8',
@@ -87,7 +86,11 @@ function koe_43_getData() {
         // 使用 Blob 创建一个指向类型化数组的URL
         const csvUrl = URL.createObjectURL(blob); // 参考链接 https://developer.mozilla.org/zh-CN/docs/Web/API/URL/createObjectURL
         let link = document.createElement('a');
-        link.download = koe_43_date[koe_43_date.length-1].replace(/-/g, '') + '-' + koe_43_date[0].replace(/-/g, '') + '.csv'; //文件名字
+        link.download =
+          koe_43_date[koe_43_date.length - 1].replace(/-/g, '') +
+          '-' +
+          koe_43_date[0].replace(/-/g, '') +
+          '.csv'; //文件名字
         link.href = csvUrl;
         // 触发下载
         link.click();
