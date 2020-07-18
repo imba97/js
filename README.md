@@ -76,10 +76,10 @@
 \# 45 | 显示所有物流信息 | [B站](https://www.bilibili.com/video/BV1Gz411v79N)·[A岛](https://www.acfun.cn/v/ac16773737) | [链接](./code/js-45.min.js) | [链接](./code/js-45.js) |  -- | --
 \# 46 | 切换页面暂停播放 | [B站](https://www.bilibili.com/video/BV1LD4y1S78T)·[A岛](https://www.acfun.cn/v/ac16800491) | [链接](./code/js-46.min.js) | [链接](./code/js-46.js) |  -- | --
 \# 47 | 梗百科搜索 | [B站](https://www.bilibili.com/video/BV1UV41167bf)·[A岛](https://www.acfun.cn/v/ac16823114) | [链接](./code/js-47.min.js) | [链接](./code/js-47.js) |  -- | --
-\# 48 | prototype的使用① | [B站](https://www.bilibili.com/video/BV1Gi4y137SN)·[A岛](https://www.acfun.cn/v/ac16843422) | [链接](./code/js-48.min.js) | [链接](./code/js-48.js) |  -- | --
-\# 49 | prototype的使用② | [B站](https://www.bilibili.com/video/BV1Ti4y1V7QS)·[A岛](https://www.acfun.cn/v/ac16858488) | [链接](./code/js-49.min.js) | [链接](./code/js-49.js) |  -- | --
-\# 50 | 跳转网站测速 | [B站](https://www.bilibili.com/video/BV1Sf4y1R7fd) | [链接](./code/js-50.min.js) | [链接](./code/js-50.js) |  -- | --
-
+\# 48 | prototype的使用① | [B站](https://www.bilibili.com/video/BV1Gi4y137SN)·[A岛](https://www.acfun.cn/v/ac16843422) | -- | [链接](./code/js-48.js) |  -- | --
+\# 49 | prototype的使用② | [B站](https://www.bilibili.com/video/BV1Ti4y1V7QS)·[A岛](https://www.acfun.cn/v/ac16858488) | -- | [链接](./code/js-49.js) |  -- | --
+\# 50 | 跳转网站测速 | [B站](https://www.bilibili.com/video/BV1Sf4y1R7fd)·[A岛](https://www.acfun.cn/v/ac16890548) | [链接](./code/js-50.min.js) | [链接](./code/js-50.js) |  -- | --
+\# 51 | 搜索全部收藏夹 | [B站](https://www.bilibili.com/video/BV1kV411B7bd) | [链接](./code/js-51.min.js) | [链接](./code/js-51.js) |  -- | --
 
 # 相关教程
 
