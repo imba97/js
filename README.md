@@ -41,45 +41,49 @@
 
 编号 | 程序 | 视频 | 压缩版 | 注释版 | 拖拽安装 | 服务端
 -|-|-|-|-|-|-
-\# 20 | 美冴铁拳 | [B站](https://www.bilibili.com/video/BV185411W7rt)·[A岛](https://www.acfun.cn/v/ac16237933) | [链接](./code/js-20.min.js) | [链接](./code/js-20.js) |  -- | --
-\# 21 | 自动加载jQuery | [B站](https://www.bilibili.com/video/BV1R54y1B7R1)·[A岛](https://www.acfun.cn/v/ac16265093) | -- | [链接](./code/js-21.js) |  -- | --
-\# 22 | 一键朗读英文 | [B站](https://www.bilibili.com/video/BV1h5411W7ka)·[A岛](https://www.acfun.cn/v/ac16277144) | [链接](./code/js-22.min.js) | [链接](./code/js-22.js) |  -- | --
-\# 23 | 眼保健操现在开始 | [B站](https://www.bilibili.com/video/BV1cv411B7UE)·[A岛](https://www.acfun.cn/v/ac16297118) | [链接](./code/js-23.min.js) | [链接](./code/js-23.js) |  -- | --
-\# 24 | 搜索推送视频 | [B站](https://www.bilibili.com/video/BV1f54y1B7Uf)·[A岛](https://www.acfun.cn/v/ac16313528) | [链接](./code/js-24.min.js) | [链接](./code/js-24.js) |  -- | --
-\# 25 | 视频数据分析 | [B站](https://www.bilibili.com/video/BV1wg4y1v7SC)·[A岛](https://www.acfun.cn/v/ac16332206) | [链接](./code/js-25.min.js) | [链接](./code/js-25.js) |  -- | --
-\# 26 | **Nuclear** | [B站](https://www.bilibili.com/video/BV1wg4y1v7SC)·[A岛](https://www.acfun.cn/v/ac16353212) | [Chrome、FireFox](./code/js-26.min.js)·[其他浏览器](./code/js-26.360.js) | [链接](./code/js-26.js) |  -- | --
-\# 27 | 打开活动页面视频 | [B站](https://www.bilibili.com/video/BV1s54y1B7ND)·[A岛](https://www.acfun.cn/v/ac16365162) | [链接](./code/js-27.min.js) | [链接](./code/js-27.js) |  -- | --
-\# 28 | 点赞抽奖 | [B站](https://www.bilibili.com/video/BV1aV411k7Rm) | [链接](./code/js-28.min.js) | [链接](./code/js-28.js) |  -- | --
-\# 29 | 复制直播间简介 | [B站](https://www.bilibili.com/video/BV1tt4y197Vd) | [链接](./code/js-29.min.js) | [链接](./code/js-29.js) |  -- | --
+\# 20 | 美冴铁拳 | [B站](https://www.bilibili.com/video/BV185411W7rt)·[A岛](https://www.acfun.cn/v/ac16237933) | [链接](./code/js-20.min.js) | [链接](./code/js-20.js) | -- | --
+\# 21 | 自动加载jQuery | [B站](https://www.bilibili.com/video/BV1R54y1B7R1)·[A岛](https://www.acfun.cn/v/ac16265093) | -- | [链接](./code/js-21.js) | -- | --
+\# 22 | 一键朗读英文 | [B站](https://www.bilibili.com/video/BV1h5411W7ka)·[A岛](https://www.acfun.cn/v/ac16277144) | [链接](./code/js-22.min.js) | [链接](./code/js-22.js) | -- | --
+\# 23 | 眼保健操现在开始 | [B站](https://www.bilibili.com/video/BV1cv411B7UE)·[A岛](https://www.acfun.cn/v/ac16297118) | [链接](./code/js-23.min.js) | [链接](./code/js-23.js) | -- | --
+\# 24 | 搜索推送视频 | [B站](https://www.bilibili.com/video/BV1f54y1B7Uf)·[A岛](https://www.acfun.cn/v/ac16313528) | [链接](./code/js-24.min.js) | [链接](./code/js-24.js) | -- | --
+\# 25 | 视频数据分析 | [B站](https://www.bilibili.com/video/BV1wg4y1v7SC)·[A岛](https://www.acfun.cn/v/ac16332206) | [链接](./code/js-25.min.js) | [链接](./code/js-25.js) | -- | --
+\# 26 | **Nuclear** | [B站](https://www.bilibili.com/video/BV1wg4y1v7SC)·[A岛](https://www.acfun.cn/v/ac16353212) | [Chrome、FireFox](./code/js-26.min.js)·[其他浏览器](./code/js-26.360.js) | [链接](./code/js-26.js) | -- | --
+\# 27 | 打开活动页面视频 | [B站](https://www.bilibili.com/video/BV1s54y1B7ND)·[A岛](https://www.acfun.cn/v/ac16365162) | [链接](./code/js-27.min.js) | [链接](./code/js-27.js) | -- | --
+\# 28 | 点赞抽奖 | [B站](https://www.bilibili.com/video/BV1aV411k7Rm) | [链接](./code/js-28.min.js) | [链接](./code/js-28.js) | -- | --
+\# 29 | 复制直播间简介 | [B站](https://www.bilibili.com/video/BV1tt4y197Vd) | [链接](./code/js-29.min.js) | [链接](./code/js-29.js) | -- | --
 
 编号 | 程序 | 视频 | 压缩版 | 注释版 | 拖拽安装 | 服务端
 -|-|-|-|-|-|-
-\# 30 | 类① | [B站](https://www.bilibili.com/video/BV1rp4y1U79B)·[A岛](https://www.acfun.cn/v/ac16469417) | -- | [链接](./code/js-30.js) |  -- | --
-\# 31 | 类② | [B站](https://www.bilibili.com/video/BV1bk4y1q72r)·[A岛](https://www.acfun.cn/v/ac16484358) | -- | [链接](./code/js-31.js) |  -- | --
-\# 32 | 鼠标的套路① | [B站](https://www.bilibili.com/video/BV1tf4y117jR)·[A岛](https://www.acfun.cn/v/ac16497811) | -- | [链接](./code/js-32.js) |  -- | --
-\# 33 | 鼠标的套路② | [B站](https://www.bilibili.com/video/BV1Yv411B7nG)·[A岛](https://www.acfun.cn/v/ac16519375) | -- | [链接](./code/js-33.js) |  -- | --
-\# 34 | 一键生成短网址 | [B站](https://www.bilibili.com/video/BV1it4y197sf)·[A岛](https://www.acfun.cn/v/ac16547419) | [链接](./code/js-34.min.js) | [链接](./code/js-34.js) |  -- | [PHP](./code/js-34.server.php)
-\# 35 | 以图搜番 | [B站](https://www.bilibili.com/video/BV1Yg4y1v7ZG)·[A岛](https://www.acfun.cn/v/ac16559225) | [链接](./code/js-35.min.js) | [链接](./code/js-35.js) |  -- | --
-\# 36 | 查询UP主认证资格 | [B站](https://www.bilibili.com/video/BV1wC4y1Y7D9) | [链接](./code/js-36.min.js) | [链接](./code/js-36.js) |  -- | --
-\# 37 | **Chronosphere** | -- | [链接](./code/js-37.min.js) | [链接](./code/js-37.js) |  -- | --
-\# 38 | 汇率转换 | [B站](https://www.bilibili.com/video/BV1Ka4y1e7st)·[A岛](https://www.acfun.cn/v/ac16671099) | -- | [链接](./code/js-38.js) |  -- | --
-\# 39 | 快退快进 | [B站](https://www.bilibili.com/video/BV1vf4y1R7cx)·[A岛](https://www.acfun.cn/v/ac16682425) | [快退](./code/js-39-backward.min.js)·[快进](./code/js-39-forward.min.js) | [链接](./code/js-39.js) |  -- | --
+\# 30 | 类① | [B站](https://www.bilibili.com/video/BV1rp4y1U79B)·[A岛](https://www.acfun.cn/v/ac16469417) | -- | [链接](./code/js-30.js) | -- | --
+\# 31 | 类② | [B站](https://www.bilibili.com/video/BV1bk4y1q72r)·[A岛](https://www.acfun.cn/v/ac16484358) | -- | [链接](./code/js-31.js) | -- | --
+\# 32 | 鼠标的套路① | [B站](https://www.bilibili.com/video/BV1tf4y117jR)·[A岛](https://www.acfun.cn/v/ac16497811) | -- | [链接](./code/js-32.js) | -- | --
+\# 33 | 鼠标的套路② | [B站](https://www.bilibili.com/video/BV1Yv411B7nG)·[A岛](https://www.acfun.cn/v/ac16519375) | -- | [链接](./code/js-33.js) | -- | --
+\# 34 | 一键生成短网址 | [B站](https://www.bilibili.com/video/BV1it4y197sf)·[A岛](https://www.acfun.cn/v/ac16547419) | [链接](./code/js-34.min.js) | [链接](./code/js-34.js) | -- | [PHP](./code/js-34.server.php)
+\# 35 | 以图搜番 | [B站](https://www.bilibili.com/video/BV1Yg4y1v7ZG)·[A岛](https://www.acfun.cn/v/ac16559225) | [链接](./code/js-35.min.js) | [链接](./code/js-35.js) | -- | --
+\# 36 | 查询UP主认证资格 | [B站](https://www.bilibili.com/video/BV1wC4y1Y7D9) | [链接](./code/js-36.min.js) | [链接](./code/js-36.js) | -- | --
+\# 37 | **Chronosphere** | -- | [链接](./code/js-37.min.js) | [链接](./code/js-37.js) | -- | --
+\# 38 | 汇率转换 | [B站](https://www.bilibili.com/video/BV1Ka4y1e7st)·[A岛](https://www.acfun.cn/v/ac16671099) | -- | [链接](./code/js-38.js) | -- | --
+\# 39 | 快退快进 | [B站](https://www.bilibili.com/video/BV1vf4y1R7cx)·[A岛](https://www.acfun.cn/v/ac16682425) | [快退](./code/js-39-backward.min.js)·[快进](./code/js-39-forward.min.js) | [链接](./code/js-39.js) | -- | --
 
 编号 | 程序 | 视频 | 压缩版 | 注释版 | 拖拽安装 | 服务端
 -|-|-|-|-|-|-
-\# 40 | 网页快照 | [B站](https://www.bilibili.com/video/BV1of4y197Eg)·[A岛](https://www.acfun.cn/v/ac16700750) | [链接](./code/js-40.min.js) | [链接](./code/js-40.js) |  -- | --
-\# 41 | 频道排序 | [B站](https://www.bilibili.com/video/BV1W54y1q7mi) | [链接](./code/js-41.min.js) | [链接](./code/js-41.js) |  -- | --
-\# 42 | **生成拖拽安装** | [B站](https://www.bilibili.com/video/BV1Z5411Y7ko)·[A岛](https://www.acfun.cn/v/ac16729011) | [链接](./code/js-42.min.js) | [链接](./code/js-42.js) |  -- | --
-\# ~~43~~ | ~~找回B站失效视频~~（视频未过审） | -- | [链接](./code/js-43.version-1.min.js) | [链接](./code/js-43.version-1.js) |  -- | --
-\# 43 | 视频数据保存 | [B站](https://www.bilibili.com/video/BV1Z5411Y7ko)·[A岛](https://www.acfun.cn/v/ac16729011) | [链接](./code/js-43.min.js) | [链接](./code/js-43.js) |  -- | --
-\# 44 | 先輩アラーム | [B站](https://www.bilibili.com/video/BV1BK4y1s7Qn)·[A岛](https://www.acfun.cn/v/ac16759283) | [链接](./code/js-44.min.js) | [链接](./code/js-44.js) |  -- | --
-\# 45 | 显示所有物流信息 | [B站](https://www.bilibili.com/video/BV1Gz411v79N)·[A岛](https://www.acfun.cn/v/ac16773737) | [链接](./code/js-45.min.js) | [链接](./code/js-45.js) |  -- | --
-\# 46 | 切换页面暂停播放 | [B站](https://www.bilibili.com/video/BV1LD4y1S78T)·[A岛](https://www.acfun.cn/v/ac16800491) | [链接](./code/js-46.min.js) | [链接](./code/js-46.js) |  -- | --
-\# 47 | 梗百科搜索 | [B站](https://www.bilibili.com/video/BV1UV41167bf)·[A岛](https://www.acfun.cn/v/ac16823114) | [链接](./code/js-47.min.js) | [链接](./code/js-47.js) |  -- | --
-\# 48 | prototype的使用① | [B站](https://www.bilibili.com/video/BV1Gi4y137SN)·[A岛](https://www.acfun.cn/v/ac16843422) | -- | [链接](./code/js-48.js) |  -- | --
-\# 49 | prototype的使用② | [B站](https://www.bilibili.com/video/BV1Ti4y1V7QS)·[A岛](https://www.acfun.cn/v/ac16858488) | -- | [链接](./code/js-49.js) |  -- | --
-\# 50 | 跳转网站测速 | [B站](https://www.bilibili.com/video/BV1Sf4y1R7fd)·[A岛](https://www.acfun.cn/v/ac16890548) | [链接](./code/js-50.min.js) | [链接](./code/js-50.js) |  -- | --
-\# 51 | 搜索全部收藏夹 | [B站](https://www.bilibili.com/video/BV1kV411B7bd) | [链接](./code/js-51.min.js) | [链接](./code/js-51.js) |  -- | --
+\# 40 | 网页快照 | [B站](https://www.bilibili.com/video/BV1of4y197Eg)·[A岛](https://www.acfun.cn/v/ac16700750) | [链接](./code/js-40.min.js) | [链接](./code/js-40.js) | -- | --
+\# 41 | 频道排序 | [B站](https://www.bilibili.com/video/BV1W54y1q7mi) | [链接](./code/js-41.min.js) | [链接](./code/js-41.js) | -- | --
+\# 42 | **生成拖拽安装** | [B站](https://www.bilibili.com/video/BV1Z5411Y7ko)·[A岛](https://www.acfun.cn/v/ac16729011) | [链接](./code/js-42.min.js) | [链接](./code/js-42.js) | [链接](https://imba97.cn/archives/661) | --
+\# ~~43~~ | ~~找回B站失效视频~~（视频未过审） | -- | [链接](./code/js-43.version-1.min.js) | [链接](./code/js-43.version-1.js) | -- | --
+\# 43 | 视频数据保存 | [B站](https://www.bilibili.com/video/BV1Z5411Y7ko)·[A岛](https://www.acfun.cn/v/ac16729011) | [链接](./code/js-43.min.js) | [链接](./code/js-43.js) | -- | --
+\# 44 | 先輩アラーム | [B站](https://www.bilibili.com/video/BV1BK4y1s7Qn)·[A岛](https://www.acfun.cn/v/ac16759283) | [链接](./code/js-44.min.js) | [链接](./code/js-44.js) | -- | --
+\# 45 | 显示所有物流信息 | [B站](https://www.bilibili.com/video/BV1Gz411v79N)·[A岛](https://www.acfun.cn/v/ac16773737) | [链接](./code/js-45.min.js) | [链接](./code/js-45.js) | -- | --
+\# 46 | 切换页面暂停播放 | [B站](https://www.bilibili.com/video/BV1LD4y1S78T)·[A岛](https://www.acfun.cn/v/ac16800491) | [链接](./code/js-46.min.js) | [链接](./code/js-46.js) | -- | --
+\# 47 | 梗百科搜索 | [B站](https://www.bilibili.com/video/BV1UV41167bf)·[A岛](https://www.acfun.cn/v/ac16823114) | [链接](./code/js-47.min.js) | [链接](./code/js-47.js) | -- | --
+\# 48 | prototype的使用① | [B站](https://www.bilibili.com/video/BV1Gi4y137SN)·[A岛](https://www.acfun.cn/v/ac16843422) | -- | [链接](./code/js-48.js) | -- | --
+\# 49 | prototype的使用② | [B站](https://www.bilibili.com/video/BV1Ti4y1V7QS)·[A岛](https://www.acfun.cn/v/ac16858488) | -- | [链接](./code/js-49.js) | -- | --
+
+编号 | 程序 | 视频 | 压缩版 | 注释版 | 拖拽安装 | 服务端
+-|-|-|-|-|-|-
+\# 50 | 跳转网站测速 | [B站](https://www.bilibili.com/video/BV1Sf4y1R7fd)·[A岛](https://www.acfun.cn/v/ac16890548) | [链接](./code/js-50.min.js) | [链接](./code/js-50.js) | -- | --
+\# 51 | 搜索全部收藏夹 | [B站](https://www.bilibili.com/video/BV1kV411B7bd) | [链接](./code/js-51.min.js) | [链接](./code/js-51.js) | -- | --
+\# 51 | 搜索评论 | -- | [链接](./code/js-52.min.js) | [链接](./code/js-52.js) | -- | --
 
 # 相关教程
 
