@@ -84,6 +84,7 @@
 \# 50 | 跳转网站测速 | [B站](https://www.bilibili.com/video/BV1Sf4y1R7fd)·[A岛](https://www.acfun.cn/v/ac16890548) | [链接](./code/js-50.min.js) | [链接](./code/js-50.js) | -- | --
 \# 51 | 搜索全部收藏夹 | [B站](https://www.bilibili.com/video/BV1kV411B7bd) | [链接](./code/js-51.min.js) | [链接](./code/js-51.js) | -- | --
 \# 52 | 搜索评论 | -- | [链接](./code/js-52.min.js) | [链接](./code/js-52.js) | -- | --
+\# 53 | 禁止套娃 | [B站](https://www.bilibili.com/video/BV1T54y1S7Gm)·[A岛](https://www.acfun.cn/v/ac16916859) | [链接](./code/js-53.min.js) | [链接](./code/js-53.js) | -- | --
 
 # 相关教程
 
