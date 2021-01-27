@@ -16,7 +16,7 @@
 # 其他程序目录
 
 程序 | 视频 | 压缩版 | 注释版
--|-|-|-|-|-
+-|-|-|-
 统计未改名粉丝 | [B站](https://www.bilibili.com/video/BV1ET4y1P7pr) | [链接](./code/js-54.min.js) | [链接](./code/js-54.js)
 
 # 《每天一个JS程序》目录
