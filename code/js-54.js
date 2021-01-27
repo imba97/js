@@ -1,4 +1,9 @@
 (function () {
+  if(!/member\.bilibili\.com/.test(window.location.href)) {
+    alert('需要在 member.bilibili.com 域名下使用，点击确认后自动打开，如果未能打开请手动打开');
+    window.open('https://member.bilibili.com');
+    return;
+  }
   var view_list = document.querySelector('#viewBox .list');
   if (view_list === null) {
     // 显示
@@ -72,7 +77,7 @@
     var xhr = new XMLHttpRequest();
     xhr.open(
       'GET',
-      'http://member.bilibili.com/x/h5/data/fan/list?ps=500&last_id=' +
+      'https://member.bilibili.com/x/h5/data/fan/list?ps=500&last_id=' +
         (last_id !== undefined ? last_id : ''),
       true
     );
@@ -111,8 +116,8 @@
           }
 
           if (
-            (index + 1) % 20 === 0 ||
-            (index + 1 === json.data.result.length && (index + 1) % 20 >= 0)
+            (index + 1) % (20) === 0 ||
+            (index + 1 === json.data.result.length && (index + 1) % (20) >= 0)
           ) {
             showText.push(
               '第' +
