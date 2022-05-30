@@ -164,7 +164,7 @@ if (typeof findLiTang === 'undefined') {
 
         // 整活类、玩梗类视频 +1
         ;[
-          ('梗',
+          '梗',
           '整活',
           '土味',
           '大佐',
@@ -177,7 +177,7 @@ if (typeof findLiTang === 'undefined') {
           '野兽先辈',
           '24岁',
           '哼哼啊',
-          '昏睡红茶')
+          '昏睡红茶'
         ].forEach(function(keyword) {
           if (~title.indexOf(keyword)) point += 1;
           if (~desc.indexOf(keyword)) point += 1;
@@ -185,7 +185,7 @@ if (typeof findLiTang === 'undefined') {
 
         // 相关视频 +5
         ;[
-          ('央视',
+          '央视',
           '刀哥',
           '刀酱',
           '好果子',
@@ -194,7 +194,7 @@ if (typeof findLiTang === 'undefined') {
           '我徒弟呢',
           '这一脚',
           '踢出',
-          '整个夏天')
+          '整个夏天'
         ].forEach(function(keyword) {
           if (~title.indexOf(keyword)) point += 5;
           if (~desc.indexOf(keyword)) point += 5;
@@ -215,7 +215,7 @@ if (typeof findLiTang === 'undefined') {
 
         // 扣分关键词
         ;[
-          ('女朋友',
+          '女朋友',
            '女生',
            '男朋友',
            '男生',
@@ -232,7 +232,6 @@ if (typeof findLiTang === 'undefined') {
            '老婆',
            '老公',
            '王雷'
-          )
         ].forEach(function(keyword) {
           if (~title.indexOf(keyword)) point -= 5;
           if (~desc.indexOf(keyword)) point -= 5;
