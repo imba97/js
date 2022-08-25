@@ -1,28 +1,3 @@
-/*
-
-鼠标
-https://pic.downk.cc/item/5ef1aa7214195aa594eb1cbb.gif
-开井
-https://pic.downk.cc/item/5ef0404114195aa59470dd3a.gif
-开井 静态图
-https://pic.downk.cc/item/5ef1903314195aa594d52c7a.png
-核弹 朝上
-https://pic.downk.cc/item/5ef199af14195aa594dcb6f4.png
-核弹 朝下
-https://pic.downk.cc/item/5ef192d714195aa594d73b88.png
-发射时的尾烟
-https://pic.downk.cc/item/5ef18d5714195aa594d2d4f5.gif
-发射中的尾烟
-https://pic.downk.cc/item/5ef18d5714195aa594d2d4fa.gif
-爆炸前
-https://pic.downk.cc/item/5ef18d5714195aa594d2d505.gif
-爆炸
-https://pic.downk.cc/item/5ef1ea4e14195aa594213428.gif
-关井
-https://pic.downk.cc/item/5ef18f0914195aa594d44f82.gif
-
-*/
-
 if (typeof Nuclear === 'undefined') {
   function Nuclear() {
     // setup
@@ -66,64 +41,64 @@ if (typeof Nuclear === 'undefined') {
       {
         type: 'img',
         name: 'mouse',
-        src: 'https://pic.downk.cc/item/5ef1aa7214195aa594eb1cbb.gif',
+        src: 'https://test.imba97.cn/nuclear/mouse.gif',
       },
       {
         type: 'img',
         name: 'smoke_1',
-        src: 'https://pic.downk.cc/item/5ef18d5714195aa594d2d4f5.gif',
+        src: 'https://test.imba97.cn/nuclear/smoke_1.gif',
         bottom: -50,
         right: 120,
       },
       {
         type: 'img',
         name: 'smoke_2',
-        src: 'https://pic.downk.cc/item/5ef18d5714195aa594d2d4fa.gif',
+        src: 'https://test.imba97.cn/nuclear/smoke_2.gif',
         bottom: 0,
         right: 0,
       },
       {
         type: 'img',
         name: 'boom_before',
-        src: 'https://pic.downk.cc/item/5ef18d5714195aa594d2d505.gif',
+        src: 'https://test.imba97.cn/nuclear/boom_before.gif',
         bottom: 0,
         right: 0,
       },
       {
         type: 'img',
         name: 'boom',
-        src: 'https://pic.downk.cc/item/5ef1ea4e14195aa594213428.gif',
+        src: 'https://test.imba97.cn/nuclear/boom.gif',
       },
       {
         type: 'img',
         name: 'silo',
-        src: 'https://pic.downk.cc/item/5ef0d45914195aa594178112.gif',
+        src: 'https://test.imba97.cn/nuclear/silo.gif',
         bottom: 0,
         right: 0,
       },
       {
         type: 'img',
         name: 'close_silo',
-        src: 'https://pic.downk.cc/item/5ef18f0914195aa594d44f82.gif',
+        src: 'https://test.imba97.cn/nuclear/close_silo.gif',
         bottom: 0,
         right: 0,
       },
       {
         type: 'img',
         name: 'nuclear_up',
-        src: 'https://pic.downk.cc/item/5ef199af14195aa594dcb6f4.png',
+        src: 'https://test.imba97.cn/nuclear/nuclear_up.png',
         bottom: 125,
         right: 267,
       },
       {
         type: 'img',
         name: 'nuclear_down',
-        src: 'https://pic.downk.cc/item/5ef192d714195aa594d73b88.png',
+        src: 'https://test.imba97.cn/nuclear/nuclear_down.png',
       },
       {
         type: 'img',
         name: 'finished',
-        src: 'https://pic.downk.cc/item/5ef1903314195aa594d52c7a.png',
+        src: 'https://test.imba97.cn/nuclear/finished.png',
         bottom: 0,
         right: 0,
       },
@@ -131,19 +106,19 @@ if (typeof Nuclear === 'undefined') {
         type: 'audio',
         name: 'ready',
         src:
-          'https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcDVHUVdqS1ViZm5nLW9OOUE5WFFqQjlyREMwSHc=.mp3',
+          'https://test.imba97.cn/nuclear/ready.mp3',
       },
       {
         type: 'audio',
         name: 'open_silo',
         src:
-          'https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcDVHUVdqS1ViZm5nLW9Ma0NHaGgxSlRISTd0eXc=.mp3',
+          'https://test.imba97.cn/nuclear/open_silo.mp3',
       },
       {
         type: 'audio',
         name: 'biu',
         src:
-          'https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcDVHUVdqS1ViZm5nLW9NVGp1VlV6Tkc4a1pXYlE=.mp3',
+          'https://test.imba97.cn/nuclear/biu.mp3',
       },
     ];
 
@@ -605,7 +580,7 @@ if (typeof Nuclear === 'undefined') {
         smoke_2_el.setAttribute('class', 'nuclear_smoke_2 nuclear_smoke_2_el');
         smoke_2_el.style.opacity = 1;
         smoke_2_el.src =
-          'https://pic.downk.cc/item/5ef18d5714195aa594d2d4fa.gif';
+          'https://test.imba97.cn/nuclear/smoke_2.gif';
 
         // 添加到 发射时尾烟数组
         smoke_2_elements.push(smoke_2_el);
