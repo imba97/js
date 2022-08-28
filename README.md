@@ -145,4 +145,8 @@ API：[https://trace.moe](https://trace.moe)
 
 - 2022-08-25
   - 修复 Nuclear 静态资源加载不到的问题
+
+## \# 37 Chronosphere
+
+- 2022-08-25
   - 修复 Chronosphere 静态资源加载不到的问题

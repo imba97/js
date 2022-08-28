@@ -74,82 +74,77 @@ if (typeof Chronosphere === 'undefined') {
       {
         type: 'img',
         name: 'mouse',
-        src: 'https://pic.downk.cc/item/5efb563614195aa594a8d9fa.png',
+        src: 'https://test.imba97.cn/chronosphere/mouse.png',
       },
       {
         type: 'img',
         name: 'ass♂',
-        src: 'https://pic.downk.cc/item/5efb496114195aa594a42110.png',
+        src: 'https://test.imba97.cn/chronosphere/ass♂.png',
       },
       {
         type: 'img',
         name: 'open',
-        src: 'https://pic.downk.cc/item/5efb4d6014195aa594a5b201.gif',
+        src: 'https://test.imba97.cn/chronosphere/open.gif',
       },
       {
         type: 'img',
         name: 'loop',
-        src: 'https://pic.downk.cc/item/5efb4d6014195aa594a5b1fa.gif',
+        src: 'https://test.imba97.cn/chronosphere/loop.gif',
       },
       {
         type: 'img',
         name: 'close',
-        src: 'https://pic.downk.cc/item/5efb4d6014195aa594a5b1fd.gif',
+        src: 'https://test.imba97.cn/chronosphere/close.gif',
       },
       {
         type: 'img',
         name: 'effe_1_create',
-        src: 'https://pic.downk.cc/item/5efb53b814195aa594a8044e.gif',
+        src: 'https://test.imba97.cn/chronosphere/effe_1_create.gif',
       },
       {
         type: 'img',
         name: 'effe_1_loop',
-        src: 'https://pic.downk.cc/item/5efb546314195aa594a83f51.gif',
+        src: 'https://test.imba97.cn/chronosphere/effe_1_loop.gif',
       },
       {
         type: 'img',
         name: 'effe_1_end',
-        src: 'https://pic.downk.cc/item/5efb53b814195aa594a80452.gif',
+        src: 'https://test.imba97.cn/chronosphere/effe_1_end.gif',
       },
       {
         type: 'img',
         name: 'effe_2_1',
-        src: 'https://pic.downk.cc/item/5eff2e4714195aa5941dc372.gif',
+        src: 'https://test.imba97.cn/chronosphere/effe_2_1.gif',
       },
       {
         type: 'img',
         name: 'effe_2_2',
-        src: 'https://pic.downk.cc/item/5eff2e4714195aa5941dc372.gif',
+        src: 'https://test.imba97.cn/chronosphere/effe_2_2.gif',
       },
       {
         type: 'audio',
         name: 'before_ready',
-        src:
-          'https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcDVHUVdqS1ViZm5nLW9UNHlNQjJnc2RXa3k1WEE=.mp3',
+        src: 'https://test.imba97.cn/chronosphere/before_ready.mp3',
       },
       {
         type: 'audio',
         name: 'ready',
-        src:
-          'https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcDVHUVdqS1ViZm5nLW9SRXhaWW1mcWN1ZDNBNVE=.mp3',
+        src: 'https://test.imba97.cn/chronosphere/ready.mp3',
       },
       {
         type: 'audio',
         name: 'loop_sound',
-        src:
-          'https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcDVHUVdqS1ViZm5nLW9WYmppancxU0Y4RGY1MFE=.mp3',
+        src: 'https://test.imba97.cn/chronosphere/loop_sound.mp3',
       },
       {
         type: 'audio',
         name: 'use_ready',
-        src:
-          'https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcDVHUVdqS1ViZm5nLW9RLTV6RXJ2NGtKMFNSTUE=.mp3',
+        src: 'https://test.imba97.cn/chronosphere/use_ready.mp3',
       },
       {
         type: 'audio',
         name: 'activated',
-        src:
-          'https://onedrive.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcDVHUVdqS1ViZm5nLW9QdWY1R05ydW5vUFptcnc=.mp3',
+        src: 'https://test.imba97.cn/chronosphere/activated.mp3',
       },
     ];
 
