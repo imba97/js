@@ -19,7 +19,7 @@
 | \# 54 | 统计未改名粉丝      | [B 站](https://www.bilibili.com/video/BV1ET4y1P7pr) | [链接](./code/js-54.min.js) | [链接](./code/js-54.js) |
 | \# 55 | 2021 拜年纪答题预测 | --                                                  | [链接](./code/js-55.min.js) | [链接](./code/js-55.js) |
 | \# 56 | 寻找最美理塘        | [B 站](https://www.bilibili.com/video/BV1JZ4y1h7eo) | [链接](./code/js-56.min.js) | [链接](./code/js-56.js) |
-| \# 57 | 寻找最美理塘        | --                                                  | [链接](./code/js-57.min.js) | [链接](./code/js-57.js) |
+| \# 57 | 继续等待            | --                                                  | [链接](./code/js-57.min.js) | [链接](./code/js-57.js) |
 
 # 《每天一个 JS 程序》目录
 
