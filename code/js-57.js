@@ -7,5 +7,5 @@
   }
 
   console.log("开启");
-  window.continueClickTimer = setInterval(/* TODO: 点击事件 */ () => {}, 10000);
+  window.continueClickTimer = setInterval(window.ec.wait.continueWait, 10000);
 })();
